@@ -7,7 +7,7 @@ def main():
     while True:
       print("\n Welcome to the toy shop")
       display_toys(toys)
-      toy = input("enter any toy you wanna buy(or type exit)to quit").lower()
+      toy = input("enter any toy you wanna buy(or type exit)to quit:").lower()
       if toy == "exit":
           print("Thanks for supporting our shop")
           break
